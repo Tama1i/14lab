@@ -7,7 +7,7 @@ def f():
  
     return g
  
- 
-k = int(input())
-cnt = f()
-print(cnt(k))
+if __name__ == '__main__':
+    k = int(input())
+    cnt = f()
+    print(cnt(k))
